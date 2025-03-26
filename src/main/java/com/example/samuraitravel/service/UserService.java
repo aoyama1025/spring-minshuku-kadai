@@ -4,10 +4,10 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.samuraitravel.SignupForm;
-import com.example.samuraitravel.UserEditForm;
 import com.example.samuraitravel.entity.Role;
 import com.example.samuraitravel.entity.User;
+import com.example.samuraitravel.form.SignupForm;
+import com.example.samuraitravel.form.UserEditForm;
 import com.example.samuraitravel.repository.RoleRepository;
 import com.example.samuraitravel.repository.UserRepository;
 

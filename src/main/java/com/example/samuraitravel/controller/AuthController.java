@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.example.samuraitravel.SignupForm;
 import com.example.samuraitravel.entity.User;
 import com.example.samuraitravel.entity.VerificationToken;
 import com.example.samuraitravel.event.SignupEventPublisher;
+import com.example.samuraitravel.form.SignupForm;
 import com.example.samuraitravel.service.UserService;
 import com.example.samuraitravel.service.VerificationTokenService;
 

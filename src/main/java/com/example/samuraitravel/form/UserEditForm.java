@@ -1,4 +1,4 @@
-package com.example.samuraitravel;
+package com.example.samuraitravel.form;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

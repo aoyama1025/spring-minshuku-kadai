@@ -1,4 +1,4 @@
-package com.example.samuraitravel;
+package com.example.samuraitravel.controller;
 
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.example.samuraitravel.entity.User;
+import com.example.samuraitravel.form.UserEditForm;
 import com.example.samuraitravel.repository.UserRepository;
 import com.example.samuraitravel.security.UserDetailsImpl;
 import com.example.samuraitravel.service.UserService;
